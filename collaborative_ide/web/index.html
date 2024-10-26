@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="collaborative_ide">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <meta name="google-signin-client_id" content="748620792888-cr5utibtdl1pq0m40ho2bhicf84ta0nn.apps.googleusercontent.com">
+
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>collaborative_ide</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+  <script>
+          // Import the functions you need from the SDKs you need
+      import { initializeApp } from "firebase/app";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyC7Zv5Jglti_nhecF-XiJjBSn9ZJZJPV2I",
+        authDomain: "idecollab-b20fc.firebaseapp.com",
+        projectId: "idecollab-b20fc",
+        storageBucket: "idecollab-b20fc.appspot.com",
+        messagingSenderId: "748620792888",
+        appId: "1:748620792888:web:203ee067f1782fb33a92cd",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "name": "collaborative_ide",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "collaborative_ide (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "collaborative_ide (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        
+              {
+                 "name": "collaborative_ide",
+                "type": "dart",
+                "request": "launch",
+                "program": "lib/main.dart",
+                "args": ["--web-port", "3861"],
+                "deviceId": "chrome"
+              } 
+    ]
+}
